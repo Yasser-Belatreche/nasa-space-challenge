@@ -1,0 +1,47 @@
+.section-3 #text-1 {
+    scale: 0.4;
+    transform: translateY(-300px);
+    opacity: 0;
+}
+
+.section-3 #planets {
+    scale: 0.7;
+    opacity: 0;
+    top: 8%;
+    left: -3%;
+}
+
+.section-3 #blue {
+    scale: 0.85;
+    opacity: 0;
+    top: 11%;
+}
+
+.section-3 #orbits {
+    scale: 0.85;
+    opacity: 0;
+    top: 11%;
+}
+
+.section-3 #circle-1 {
+    width: 48%;
+    transform: translate(-1000px, -1000px);
+}
+
+.section-3 #circle-2 {
+    width: 65%;
+    transform: translate(-1000px, -1000px);
+    scale: 1.2;
+}
+
+.section-3 #text-2 {
+    scale: 0.3;
+    transform: translate(1300px, 1900px);
+    opacity: 0;
+}
+
+.section-3 #text-3 {
+    scale: 0.3;
+    transform: translate(1300px, 1900px);
+    opacity: 0;
+}

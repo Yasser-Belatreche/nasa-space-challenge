@@ -1,0 +1,14 @@
+.section-4 #text-1,
+.section-4 #text-2,
+.section-4 #text-3,
+.section-4 #text-4,
+.section-4 #text-5,
+.section-4 #text-6 {
+    opacity: 0;
+    scale: 0.6;
+    top: -32%;
+}
+
+.section-4 #car {
+    scale: 0.7;
+}
