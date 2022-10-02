@@ -24,6 +24,8 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+
+    background: linear-gradient(180deg, #0d1433 0%, #0e1e61 100%);
 }
 
 svg {
@@ -70,4 +72,62 @@ svg {
 .btn:hover {
     background: #ffffff;
     color: #1b1734;
+}
+.page2 {
+    width: 100%;
+    height: 100%;
+}
+.bg {
+    background: linear-gradient(180deg, #0d1433 0%, #0e1e61 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.bg {
+    background: linear-gradient(180deg, #0d1433 0%, #0e1e61 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.stars {
+    scale: 1.8;
+}
+
+svg {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.scrollDiv {
+    position: absolute;
+    height: 6000px;
+    width: 100px;
+    top: 0;
+    z-index: 0;
 }
