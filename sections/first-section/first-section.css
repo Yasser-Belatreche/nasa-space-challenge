@@ -1,0 +1,58 @@
+.section-1 #first-earth {
+    transform: translateY(90%) translateX(1%);
+}
+
+.section-1 #clouds {
+    scale: 0.3;
+    left: 17%;
+    top: 35%;
+    opacity: 0;
+}
+
+.section-1 #outer-circles {
+    left: 13%;
+    top: 39%;
+    opacity: 0;
+}
+
+.section-1 #text-1 {
+    scale: 0.5;
+}
+
+.section-1 #text-2 {
+    scale: 0.5;
+    transform: translateY(2000px);
+}
+
+.section-1 #text-3 {
+    scale: 0.3;
+    transform: translateY(2000px) translateX(-800px);
+}
+
+.section-1 #text-4 {
+    scale: 0.4;
+    transform: translateY(2000px);
+}
+
+.section-1 #scroll-item {
+    position: relative;
+    animation: upDown 1s ease reverse infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(5px);
+    }
+
+    20% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
