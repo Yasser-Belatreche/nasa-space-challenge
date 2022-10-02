@@ -45,6 +45,7 @@ scene1.to('#h1-13', { opacity: 1 }, 4.9);
 
 // scene1.fromTo('#h1-13', 4.8, { opacity: 1 }, { opacity: 0 }, 4.8);
 // scene1.fromTo('#h1-13', 7.3, { y: 1.8 * speed, x: 0 }, { y: 10 * speed, x: 0 }, 7.3);
+
 scene1.to('#h1-13', { y: 10 * speed, x: 0, opacity: 0 }, 7.3);
 scene1.to('#h1-11', { y: 10 * speed, x: 0, opacity: 0 }, 7.3);
 window.onbeforeunload = function () {
